@@ -18,7 +18,7 @@ layout: default
         <li>
           <a href="{{ post.url }}" class="title">{{ post.title }}</a>
           <div class="title-desc">{{ post.description }}</div>
-		  <div class="title-desc">{{ post.author }} 发表于 {{ page.date | date: "%d %B %Y" }} </div>
+		  <div class="title-desc">{{ post.author }} 发表于 {{ post.date | date: "%d %B %Y" }} </div>
         </li>
         {% endfor %}
       </ul>
