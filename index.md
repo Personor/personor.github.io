@@ -17,7 +17,7 @@ layout: default
         {% for post in site.categories.blog %}
         <li>
           <a href="{{ post.url }}" class="title">{{ post.title }}</a>
-          <div class="title-desc" style="font-color:#A8A8A8">{{ post.description }}</div>
+          <div class="title-desc">{{ post.description }}</div>
 		  <div class="title-desc" style="font-size:12px">{{ post.author }} 发表于 {{ post.date | date: "%d %B %Y" }} </div>
         </li>
         {% endfor %}
