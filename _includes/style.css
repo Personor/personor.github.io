@@ -247,6 +247,7 @@ a.external:hover {
   line-height: 1.7;
 }
 .index-wrapper .title-time {
+  margin:10px 0px 0px 0px;
   color: #999999;
   font-size: 12px;
   line-height: 1.6;
