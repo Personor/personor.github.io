@@ -18,7 +18,7 @@ layout: default
         <li>
           <a href="{{ post.url }}" class="title" style="line-height:1.5">{{ post.title }}</a>
           <div class="title-desc">
-			<img src="https://gss0.bdstatic.com/7051cy89RcgCncy6lo7D0j9wexYrbOWh7c50/zhidaoribao/2017/0421/ys.jpg" style="width:100%;height:100%">
+			<img src="http://i.imgur.com/oMBcG88.jpg" style="width:100%;height:100%">
 			{{ post.description }}
 		  </div>
 		  <div class="title-time">
